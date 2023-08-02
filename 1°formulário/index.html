@@ -103,9 +103,67 @@
                 </label>
             </div>
 
+            <hr>
+
+            <!--Seleção-->
+
+            <div class="form-group">
+                <label>Selecione uma opção:</label><br>
+                <select name="campo_seleção" >
+                    <optgroup label="países">
+                        <option value="pt">Portugal</option>
+                        <option value="br">Brasil</option>
+                        <option value="ao">Angola</option>
+                        <option value="mc">Moçanbique</option>
+                        <option value="cv">Cabo Verde</option>
+                    </optgroup>
+                    <optgroup label="outros países">
+                        <option value="fr">França</option>
+                        <option value="de">Alemanha</option>
+                        <option value="es">Espanha</option>
+                    </optgroup>
+                </select>
+            </div>
+
+            <hr>
+
+            <!--Área de texto-->
+
+            <div class="form-group">
+                <textarea name="campo-area" id="" cols="40" rows="4" wrap="soft">
+                    
+                </textarea>
+            </div>
+
+            <hr>
+
+            <!--datalist-->
+
+            <div class="form-group">
+                <label for="campo-opções">Indique a opção:</label><br>
+                <input type="text" name="campo_opção" id="campo-opções" list="lista-dados">
+                <datalist id="lista-dados">
+                    <option value="Portugal">
+                    <option value="Brasil">
+                </datalist>
+            </div>
+
+            <hr>
+
+            <!--fieldset-->
+
+            <fieldset>
+                <legend>Dados pessoais</legend>
+                <div class="form-group">
+                    <label for="x">nome</label><br>
+                    <input type="text" name="campo_n" id="x">
+                </div>
+            </fieldset>
+
             <!--enviar-->
 
             <div class="form-group">
+                <input type="reset" value="Limpar">
                 <input type="submit" value="Enviar">
             </div>
     
