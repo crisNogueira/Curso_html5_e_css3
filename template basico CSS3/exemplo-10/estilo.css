@@ -1,0 +1,10 @@
+/* folha de estilo CSS3 */
+
+article {
+    padding: 20px;
+}
+
+p {
+    text-align: justify;
+    direction:ltr;
+}

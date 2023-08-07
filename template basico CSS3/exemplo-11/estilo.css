@@ -1,0 +1,11 @@
+/* folha de estilo CSS3 */
+
+article {
+    padding: 20px;
+}
+
+p {
+    /*line-height: 30px;*/ /* distância entre linhas*/
+    letter-spacing: 0.05em; /*distância entre letra*/
+    word-spacing: 0.5em; /*distância entre palavras */
+}
