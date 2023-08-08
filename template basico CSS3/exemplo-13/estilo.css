@@ -1,0 +1,21 @@
+/* Folha de estilo*/
+
+li, dt, dd {
+    line-height: 24px; /*espaço entre as linhas de 24px*/
+}
+
+.lista-desordenada {
+    list-style-type: none; /*muda o simbulo do item para dierentes modelos, aplicavel em ul e ol, none fica sem simbolo.*/
+    /*list-style-position: outside;*/ /* simbulos ficam na mesma linha de cada item, no outside fica fora*/
+    /*list-style-image: url(images/icon.png);*/ /*troca o simbulo para uma imagem pre definida*/
+}
+
+/* outro método para mudar o valor do ícone de lista*/
+
+.lista-desordenada li {
+    background-image: url(images/icon.png); /*coloca a imagem como plano de fundo, repetidas vezes.*/
+    background-position: 0 8px; /*Especifica a posição inicial da(s) imagem(ns) de fundo (após qualquer redimensionamento)*/
+    background-size: .5rem .5rem; /*Especifica o tamanho das imagens de fundo.*/
+    background-repeat: no-repeat; /*permite que a imagem não seja repitida repitida vezes.*/
+    padding-left: 12px;
+}
