@@ -1,0 +1,24 @@
+/*folha de estilo CSS3*/
+
+div {
+    margin: 10px; /*valor da espessura da área da margem*/
+    height: 200px; /*Especifica a altura da área de conteúdo, área de preenchimento ou área de borda*/
+    border: 1px solid black; /* defina a borda da caixa, espessura, tipo e a cor.*/
+}
+
+.espaco-1{
+    /*background-color: yellow;*/ /*Define a cor (homogenia) de fundo de um elemento.*/
+    background: linear-gradient(180deg, red, yellow); /*degradação de cores de fundo, onde deg define a posição das cores*/
+}
+
+.espaco-2{
+    background-image: url(images/fundo.jpg); /*Define a(s) imagem(ns) de fundo de um elemento.*/
+    background-size: 100% 100%; /*Especifica o tamanho das imagens de fundo. nesse caso ela ocupa 100% da largura e do comprimento.*/
+}
+
+.espaco-3 {
+    background-image: url(images/outro_fundo.jpg);
+    background-repeat: repeat-x; /*Especifica como as imagens de fundo são dispostas lado a lado depois de terem sido dimensionadas e posicionadas.*/
+    
+}
+
