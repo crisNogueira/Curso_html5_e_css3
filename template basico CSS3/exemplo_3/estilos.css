@@ -3,7 +3,7 @@
 /* color --------------------------------------------------------------------------------------*/
 
 .cor-de-texto-1 {
-    color: red;
+    color: red; /* define a cor da fonte da letra*/
 }
 
 .cor-de-texto-2 {
@@ -17,7 +17,7 @@
 /* font-family----------------------------------------------------------------------------------*/
 
 .familia-de-letras {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; /*Especifica uma lista priorizada de nomes de famílias de fontes ou nomes de famílias genéricas.*/
 }
 
 .letra-monospace {
@@ -28,7 +28,7 @@
 
 .letra-tamanho-pixeis {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 32px;
+    font-size: 32px; /* determina o tamanho da fonte, em px, em ou rem*/
 }
 
 .letra-tamanho-EM {

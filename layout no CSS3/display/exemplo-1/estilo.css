@@ -1,0 +1,12 @@
+/* folha de estilo CSS3*/
+
+/*display-->determina o tipo de caixa ou caixas que são geradas para um elemento.*/
+
+p {
+    display: inline; /*Coloca na mesma linha*/
+}
+
+span {
+    display: block; /*Coloca um abaixo do outro*/
+}
+

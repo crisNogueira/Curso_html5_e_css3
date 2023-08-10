@@ -5,6 +5,6 @@ article {
 }
 
 p {
-    text-align: justify;
-    direction:ltr;
+    text-align: justify; /*Descreve como o conteúdo embutido de um bloco é alinhado horizontalmente se o conteúdo não preencher completamente a caixa de linha.*/
+    direction:ltr; /*Especifica a direção ou direcionalidade da base em linha de qualquer parágrafo, incorporação, isolamento ou substituição estabelecida pela caixa.*/
 }

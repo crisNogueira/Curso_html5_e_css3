@@ -3,19 +3,19 @@
 /* font-style------------------------------------------------------------------------------------------*/
 
 .letra-italico {
-    font-style: italic;
+    font-style: italic; /*Permite selecionar faces em itálico ou oblíquas.*/
 }
 
 /* font-weight-----------------------------------------------------------------------------------------*/
 
 .letra-espessura {
-    font-weight: bold;
+    font-weight: bold; /*Especifica o peso dos glifos na fonte, sua espessura, seu grau de negritude ou espessura do traço.*/
 }
 
 /* text-trasnform--------------------------------------------------------------------------------------*/
 
 .letra-transformada-minuscula {
-    text-transform: lowercase;
+    text-transform: lowercase; /*Controla os efeitos de capitalização do texto de um elemento. minuscula ou maiuscula*/
 }
 
 .letra-transformada-maiuscula {
@@ -29,7 +29,7 @@
 /* text-decoration-------------------------------------------------------------------------------------*/
 
 .letra-sublinhada {
-    text-decoration: underline;
+    text-decoration: underline; /*Decorações aplicadas à fonte usada para o texto de um elemento.*/
 }
 
 .letra-rasurada {
@@ -49,16 +49,16 @@
 }
 
 .letra-decoration-3 {
-    text-decoration-line: underline;
-    text-decoration-style: wavy;
-    text-decoration-color: red;
+    text-decoration-line: underline; /*Especifica quais decorações de linha, se houver, são adicionadas ao elemento.*/
+    text-decoration-style: wavy; /*Especifica o estilo de linha para decoração de texto sublinhado, linear e sobrelineado.*/
+    text-decoration-color: red; /*Especifica a cor da decoração do texto, definida no elemento com linha de decoração de texto.*/
 }
 
 .estilo-de-letras {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: blue;
     font-size: 22px;
-    text-decoration: line-through underline dashed blueviolet;
+    text-decoration: line-through underline dashed blueviolet; /*defina linha, stilo e a cor.*/
 }
 
 

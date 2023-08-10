@@ -1,0 +1,17 @@
+/*Folha de estilo CSS3*/
+
+/*configuração da lista*/
+
+.navegacao {
+    padding: 20px;
+    background-color: yellow;
+    text-align: center;
+    list-style-type: none;
+}
+
+/*Configuração das hiper ligações*/
+
+.navegacao li {
+    display: inline-block;
+    padding: 0px 20px;
+}

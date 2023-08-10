@@ -1,0 +1,9 @@
+/*Folha de estilo CSS3*/
+
+.bloco {
+    /*display: inline; --> por ser inline ele não sofre alteração de largura e altura.*/
+    display: inline-block; /*--> As alteraç~es são permitidas.*/
+    background-color: yellow;
+    width: 250px;
+    height: 50px;
+}

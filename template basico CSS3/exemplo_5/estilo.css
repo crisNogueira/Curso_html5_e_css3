@@ -1,12 +1,12 @@
 /* folha de estilo CSS3*/
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0; /*Propriedade abreviada para definir valores para a espessura da área de margem.*/
+    padding: 0; /*Propriedade abreviada para definir valores para a espessura da área de preenchimento.*/
 }
 
 p {
-    margin-left: 20px;
+    margin-left: 20px; /*valores da margem para esquerda*/
     font-size: 20px;
 }
 
