@@ -1,0 +1,8 @@
+/*Folha de estilo*/
+
+div {
+    background-color: yellow;
+    padding: 10px;
+    position: sticky; /*fixo até o proximo div vinculado a essa formatação.*/
+    top: 0;
+}

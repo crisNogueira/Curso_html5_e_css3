@@ -1,0 +1,11 @@
+/* Folha de estilo CSS3 */
+
+div {
+    width: 300px;
+    background-color: yellow;
+    padding: 10px;
+    position: fixed; /*caixa fica fixa na página*/
+    left: 100px;
+    top: 100px;
+}
+

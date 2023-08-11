@@ -1,0 +1,20 @@
+/* Folha de estilo CSS3 */
+
+div {
+    width: 300px;
+    padding: 30px;
+    position: absolute;
+}
+
+.area-1 {
+    left: 50px;
+    top: 60px;
+    background-color: green;
+    z-index: 1; /*Para uma caixa posicionada, a propriedade 'z-index' especifica o nível de pilha da caixa no contexto de empilhamento atual e se a caixa estabelece um contexto de empilhamento local.*/
+}
+
+.area-2 {
+    left: 80px;
+    top: 80px;
+    background-color: yellow;
+}
