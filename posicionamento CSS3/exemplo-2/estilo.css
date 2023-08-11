@@ -1,0 +1,9 @@
+/*folha de estilo CSS3*/
+
+.posicao {
+    position: absolute; /*deixa de existir um float normal de documento web*/
+    padding: 5px;
+    background-color: yellow;
+    bottom: 100px;
+    right: 100px;
+}

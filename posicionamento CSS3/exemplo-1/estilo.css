@@ -1,0 +1,21 @@
+/*Folha de estilo CSS3*/
+
+/*position-->A propriedade CSS position define como um elemento é posicionado em um documento.*/
+
+.posicao {
+    /*position: static;-->Os elementos p devem seguir o seu float normal*/
+    position: relative; /*pode sobrepor sobre outros elementos.*/
+    top: 30px;
+    left: 50px;
+    background-color: green;
+    color: white;
+    padding: 5px;
+}
+
+div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    margin: 100px;
+    overflow: auto;
+}
