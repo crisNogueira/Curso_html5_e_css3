@@ -1,0 +1,79 @@
+/* Folha de estilo CSS */
+
+* {
+    margin: 0;
+}
+
+/* Navegação */
+
+.container-1 {
+    padding: 60px;
+    background-color: rgb(19,22,32);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    column-gap: 30px;
+}
+
+.container-1 div {
+    padding: 10px;
+    width: 150px;
+    border: 1px solid grey;
+    border-radius: 20px;
+    text-align: center;
+}
+
+:link {
+    color: white;
+    text-decoration: none;
+    font-size:15px;
+}
+
+.container-1 div:hover {
+    background-color: rgb(73, 71, 80);
+    text-decoration: underline;
+    color: white;
+}
+
+/*Seção*/
+
+.container-2 {
+    padding: 40px 60px 40px 60px;
+    background-color: rgb(14, 15, 18);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    column-gap: 190px;
+}
+
+.img {
+    background-color: rgb(45, 45, 51);
+    padding: 30px 20px 240px 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    color: white;
+}
+
+.img-1 {
+    text-align: center;
+    padding: 5px 75px 20px 75px;
+}
+
+/*Rodapé*/
+
+.container-3 {
+    padding: 80px;
+    background-color: rgb(8, 7, 8);
+    text-align: center;
+}
+
+.container-3 div {
+    color: rgb(19, 147, 231);
+    padding-bottom: 40px;
+    padding-top: 1px;
+}
+
+.container-3 p {
+    color: gray;
+    font-size: 12px;
+}

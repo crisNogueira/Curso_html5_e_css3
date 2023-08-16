@@ -1,0 +1,38 @@
+/* Folha de estilo CSS3 */
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    height: 300px;
+}
+
+div {
+    padding: 20px;
+}
+
+/*order --> Controla a ordem em que os filhos de um flex container aparecem dentro do flex container, atribuindo-os a grupos ordinais.*/
+
+/*flex-grow --> Define o fator de crescimento flexível. Números negativos são inválidos.*/
+
+/*flex-shrink --> Define o fator de encolhimento flexível. Números negativos são inválidos.*/
+
+/*flex -- > Especifica os componentes de um comprimento flexível: o fator de crescimento flexível e o fator de contração flexível e a base flexível: flex-grow, flex-shrink e flex-base*/
+
+/*align-self --> Permite que o alinhamento padrão ao longo do eixo transversal seja substituído por itens flexíveis individuais.*/
+
+.child-1 {
+    background-color: #cad5d6;
+    align-self: flex-end; /*item para baixo*/
+}
+
+.child-2 {
+    background-color: #b4c1c2;
+    align-self: center; /*item no meio*/
+}
+.child-3 {
+    background-color: #9facad;
+}
+.child-4 {
+    background-color: #849192;
+    align-self: flex-start; /*item acima*/
+}
