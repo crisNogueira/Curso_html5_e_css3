@@ -1,0 +1,14 @@
+/* Folha de estilo CSS */
+
+.formato-p {
+    display: block;
+}
+
+.formato-l {
+    display: none;
+}
+
+@media screen and (orientation: landscape) {
+    .formato-p { display: none;}
+    .formato-l { display: block;}
+}

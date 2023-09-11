@@ -1,0 +1,29 @@
+/* Folha de estilo CSS */
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+h1 {
+    color: lightblue;
+}
+
+h3 {
+    color: orange;
+}
+
+p {
+    color: lightgreen;
+}
+
+@media print {
+    body {
+        background-color: white;
+    }
+
+    h1, h3, p {
+        color: black;
+    }
+}

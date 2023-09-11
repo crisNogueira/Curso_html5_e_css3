@@ -1,0 +1,26 @@
+/* Folha de estilo CSS */
+
+section {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    background-color: lightgray;
+    height: 400px;
+    width: 400px;
+}
+
+/*justify-self --> Define a forma de justificar uma caixa dentro de seu contêiner ao longo do eixo apropriado. */
+
+/*align-self --> Permite que o alinhamento padrão ao longo do eixo cruzado seja substituído para itens flexíveis individuais. */
+
+/*place-self --> É uma propriedade abreviada que define as propriedades align-self e justify-self. Se o segundo valor não estiver presente, o primeiro valor também será usado para ele.*/
+
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    font-size: 3em;
+    /*justify-self: center;
+    align-self: center;*/
+    place-self: center ;
+}

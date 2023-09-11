@@ -1,0 +1,77 @@
+/* Folha de estilo CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    color: white;
+}
+
+section {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 26% 26% 26% 22%;
+    grid-template-rows: 20% 25% auto 10%;
+    grid-template-areas: 
+        "header header header header"
+        "text1 text2 text3 aside"
+        "content content content aside"
+        "footer footer footer footer"
+    ;
+    gap: 5px;
+}
+
+header {
+    text-align: center;
+    grid-area: header;
+    background-color: rgb(63, 0, 64);
+    display: grid;
+    grid-template-columns: auto 10%;
+    padding: 10px;
+}
+
+header > div {
+    padding: 5px;
+    background-color: rgb(191, 0, 254);
+    place-self: center;
+    height: 100px;
+    width: 100px;
+}
+
+aside {
+    grid-area: aside;
+    background-color: rgb(0, 89, 179);
+    padding: 20px;
+}
+
+.item1 {
+    grid-area: text1;
+    background-color: rgb(71, 0, 140);
+    padding: 20px;
+}
+
+.item2 {
+    grid-area: text2;
+    background-color: rgb(109, 0, 216);
+    padding: 20px;
+}
+
+.item3 {
+    grid-area: text3;
+    background-color: rgb(77, 76, 255);
+    padding: 20px;
+}
+
+article {
+    grid-area: content;
+    background-color: rgb(77, 76, 255);
+    padding: 20px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: rgb(63, 0, 64);
+    padding: 20px;
+}

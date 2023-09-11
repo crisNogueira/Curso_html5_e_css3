@@ -1,0 +1,40 @@
+/* Folha de estilo CSS */
+
+section {
+    display: grid;
+    grid-template-columns: [col-inicio] 50% [col-meio] 50% [col-fim];
+    grid-template-rows: [row-inicio] 50% [row-meio] 50% [row-fim];
+    height: 400px;
+    width: 400px;
+    border: 1px solid black;
+}
+
+div {
+    padding: 10px;
+    font-size: 3em;
+}
+
+/*grid-colunm --> Abreviação de 'grid-column-start' e 'grid-column-end' */
+
+/*grid-row--> Abreviação de 'grid-row-start' e 'grid-row-end' */
+
+.item1 {
+    background-color: rgb(160, 200, 220);
+    /*grid-column-start: col-inicio;
+    grid-column-end: col-fim;
+    grid-row-start: row-inicio;
+    grid-row-end: row-fim;*/
+    grid-column: col-inicio / col-fim;
+}
+
+.item2 {
+    background-color: rgb(153, 182, 201);
+}
+
+.item3 {
+    background-color: rgb(148,168 , 185);
+}
+
+.item4 {
+    background-color: rgb(128, 138, 158);
+}

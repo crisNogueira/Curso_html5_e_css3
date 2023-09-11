@@ -1,0 +1,48 @@
+/* folha de estilo CSS */
+
+section {
+    display: grid;
+    grid-template: 
+        [row-1-start] "header header" 20vh [row-1-end]
+        [row-2-start] "nav content" auto [row-2-end]
+        [row-3-start] "footer footer" 20vh [row-3-end]
+        / 20vw auto;
+    gap: 10px 10px;
+    height: 100vh;
+    
+}
+
+div {
+    font-size: 3em;
+    font-family:Arial;
+    font-weight: bolder;
+}
+
+.item1 {
+    grid-area: header;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    padding: 35px;
+}
+
+.item2 {
+    grid-area: nav;
+    color: white;
+    background-color: rgb(67, 66, 80);
+    text-align: center;
+    padding-top: 167px;
+}
+
+.item3 {
+    grid-area: content;
+    background-color: rgb(221, 221, 221);
+    text-align: center;
+    padding-top: 167px;
+}
+
+.item4 {
+    grid-area: footer;
+    color: white;
+    background-color: rgb(17, 17, 17);
+    padding: 35px;
+}

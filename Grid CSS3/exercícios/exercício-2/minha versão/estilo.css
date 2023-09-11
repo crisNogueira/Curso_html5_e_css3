@@ -1,0 +1,83 @@
+/* Folha de estilo CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 34px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+section {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 20vw auto;
+    grid-template-rows: 20vh auto 15vh;
+    grid-template-areas: 
+        "header header"
+        "aside article"
+        "footer footer"
+    ;
+    gap: 5px;
+}
+
+.item1 {
+    grid-area: header;
+    color: white;
+    background-color: rgb(0, 37, 63);
+    padding: 46px;
+
+}
+
+.item2 {
+    grid-area: aside;
+    color: white;
+    background-color: rgb(67, 66, 80);
+    text-align: center;
+    padding-top: 200px;
+}
+
+.item3 {
+    margin: 1px;
+    text-align: center;
+    grid-area: article;
+    color: black;
+    background-color: rgb(213, 213, 221);
+    display: grid;
+    padding: 10px;
+    grid-template-columns: 250px auto 250px;
+    grid-template-areas: 
+        "centro centro centro"
+        "imagem1 imagem2 imagem3"
+    ;
+    gap: 10px 10px;
+}
+
+p {
+    grid-area: centro;
+}
+
+.item3-1 {
+    grid-area: imagem1;
+    background-color: rgb(153, 154, 172);
+    padding-top: 60px;
+}
+
+.item3-2 {
+    grid-area: imagem2;
+    background-color: rgb(153, 154, 172);
+    padding-top: 60px;
+}
+
+.item3-3 {
+    grid-area: imagem3;
+    background-color: rgb(153, 154, 172);
+    padding-top: 60px;
+}
+
+.item4 {
+    grid-area: footer;
+    color: white;
+    background-color: rgb(0, 32, 63);
+    padding: 34px;
+}

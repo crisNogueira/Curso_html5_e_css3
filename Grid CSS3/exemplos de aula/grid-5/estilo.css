@@ -1,0 +1,28 @@
+/* Folha de estilo CSS */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-shadow: inset 0 0 2px black;
+}
+
+/*justify-items --> forma de alinhamento na horizontal*/
+/*align-items --> forma de alinhamento na vertical*/
+/*place-items --> A propriedade abreviada CSS . O primeiro valor é o align-items, o segundo é justify-items. Se o segundo valor não estiver presente, o primeiro valor também será usado para ele.*/
+
+section {
+    display: grid;
+    grid-template: 50% 50% / 50% 50%;
+    height: 100vh;
+    /*justify-items: stretch;
+    align-items: center;*/
+    place-items: end ;
+}
+
+div {
+    font-size: 3em;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    background-color: yellow;
+}
